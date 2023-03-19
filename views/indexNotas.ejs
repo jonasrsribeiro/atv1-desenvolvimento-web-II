@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Notas</title>
+</head>
+<body>
+    <h3>Olá, seja bem vindo!</h3>
+    <h3>Por favor, cadastre 3 notas abaixo para calcular a média: </h3><br>
+    <form action="/notas", method="POST">
+        <!-- DADOS DO CADASTRO DE NOTAS -->
+        <label for="Nota_prova_semestre">Nota da Atividade Prática em Laboratório: </label>
+        <input type="text" id="nota_atv_pratica" name="nota_atv_pratica" placeholder="Nota da Atividade Prática" required><br><br>
+
+        <label for="Nota_prova_semestre">Nota da Prova do Semestre: </label>
+        <input type="text" id="nota_prova_semestre" name="nota_prova_semestre" placeholder="Nota da Prova do Semestre" required><br><br>
+
+        <label for="Nota_trabalho_teorico">Nota do Trabalho Teórico: </label>
+        <input type="text" id="nota_trabalho_teorico" name="nota_trabalho_teorico" placeholder="Nota do Trabalho Teórico" required><br><br>
+
+        <!-- ENVIANDO O CADASTRO DE NOTAS -->
+        <input type="submit" id="botao" name="cadastrar" value="Cadastrar Notas">
+    </form>
+</body>
+</html>

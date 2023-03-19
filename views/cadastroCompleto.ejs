@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+</head>
+<body>
+        <p>Nome: <%= nome %></p>
+        <p>Sobrenome: <%= sobrenome %></p>
+        <p>Idade: <%= idade %></p>
+        <p>Email: <%= email %></p>
+        <p>Nacionalidade: <%= nacionalidade %></p>
+    <form action="/cadastro" method="get">
+        <input type="submit" id="botao" name="recadastrar" value="Editar informações">
+    </form>
+</body>
+</html>
